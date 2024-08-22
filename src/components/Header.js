@@ -8,7 +8,7 @@ const Header = () => {
         {key: 'technics', name: 'boiler',price: 30000},
         {key: 'equipment', name: 'TV',price: 40000},
         {key: 'android', name: 'Xiaomi',price: 20000},
-        {key: 'Car', name: 'Pego',price: 80000},
+        {key: 'Air', name: 'Pego',price: 80000},
     ]
 
 
