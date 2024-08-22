@@ -30,6 +30,12 @@ const Header = () => {
     }
 
     const changeDecQuantity = () => {
+        if(currentQuantity <= 0){
+            console.log('curQuant',currentQuantity)
+            return 0;
+            console.log(currentQuantity)
+        }
+        
         setQuantity(currentQuantity -1)
     }
     //----------------------
